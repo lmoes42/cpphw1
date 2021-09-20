@@ -1,5 +1,5 @@
 /******************************************************************************
-* File:             RSL.cpp
+* File:             RSL.cc
 *
 * Author:           Levi Moes
 * Created:          09/20/21
@@ -14,7 +14,7 @@
 // but hey, it compiles
 // exercise said I had to write this outside my main,
 // dunno why
-string output = R"###(^\s+Encryption key:(\w+)
+std::string output = R"###(^\s+Encryption key:(\w+)
 ^\s+Quality=(\d+)
 ^\s+E?SSID:"([[:print:]]+)"
 ^\s+ssid="([[:print:]]+)")###";
