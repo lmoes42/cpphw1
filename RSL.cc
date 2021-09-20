@@ -9,7 +9,6 @@
 *****************************************************************************/
 
 #include <iostream>
-using namespace std;
 
 // Makes my syntax checker flood me with errors
 // but hey, it compiles
